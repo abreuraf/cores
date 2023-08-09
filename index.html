@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores do Arco-Íris</title>
+    <style>
+       * {
+        margin: 0;
+        padding: 0;
+       }
+        .violeta {
+            background: #a791c4;
+        }
+        .indigo {
+            background: #2957a4;
+        }
+        .azul {
+            background: #00afef;
+        }
+        .verde {
+            background: #00ad57;
+        }
+        .amarelo {
+            background: #fff212;
+        }
+        .laranja {
+            background: #f58634;
+        }
+        .vermelho {
+            background: #ed3237;
+        }
+        #cores {
+            display: flex;
+        }
+        #cores div {            
+            display: flex;
+            justify-content: center;            
+            align-items: center;
+            writing-mode: vertical-lr;
+            text-orientation: upright;         
+            text-transform: uppercase;   
+            color: #fff;
+            width: 14.285vw;
+            height: 90vh;
+            font-size: 30pt;
+            font-weight: 900;
+        }
+        #cores div:hover {
+            opacity: 0.7;
+        }
+        footer {
+            position: absolute;
+            bottom: 0;
+            text-align: center;
+            color: #fff;
+            background: #000;
+            height: 10vh;
+            line-height: 10vh;
+            width: 100%;
+            font-size:18pt;
+        }
+        a {
+            color: #2957a4;
+            text-decoration: none;
+           
+        }
+        a:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div id="cores">
+        <div class="violeta">&nbsp;Violeta</div>
+        <div class="indigo">&nbsp;Indigo</div>
+        <div class="azul">&nbsp;Azul</div>
+        <div class="verde">&nbsp;Verde</div>
+        <div class="amarelo">&nbsp;Amarelo</div>
+        <div class="laranja">&nbsp;Laranja</div>
+        <div class="vermelho">&nbsp;Vermelho</div>
+    </div>
+    <footer>desenvolvido por <a href="http://abreur.com" target="_blank">abreur.com</a></footer>
+</body>
+</html>
